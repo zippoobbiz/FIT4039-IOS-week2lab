@@ -83,8 +83,14 @@
                                     <action selector="multi" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oYw-ee-KQY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-bB-kOT">
-                                <rect key="frame" x="133" y="307" width="55" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsi-qu-zQ1">
+                                <rect key="frame" x="59" y="323" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-bB-kOT">
+                                <rect key="frame" x="121" y="315" width="101" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -94,10 +100,8 @@
                         <constraints>
                             <constraint firstItem="ZyC-mU-YTh" firstAttribute="baseline" secondItem="ksl-XV-dKx" secondAttribute="baseline" id="Bby-B1-aOs"/>
                             <constraint firstItem="s26-u0-l6E" firstAttribute="top" secondItem="ksl-XV-dKx" secondAttribute="bottom" constant="89" id="Bfo-W0-1vj"/>
-                            <constraint firstAttribute="bottom" secondItem="HHm-bB-kOT" secondAttribute="bottom" constant="282" id="FFe-LJ-wEa"/>
                             <constraint firstItem="NjJ-VF-AVD" firstAttribute="top" secondItem="cTr-dy-ZBp" secondAttribute="top" id="Igi-bD-Agi"/>
                             <constraint firstItem="cTr-dy-ZBp" firstAttribute="trailing" secondItem="ZyC-mU-YTh" secondAttribute="trailing" id="NcM-Ff-NV4"/>
-                            <constraint firstItem="HHm-bB-kOT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="267" id="QEV-9N-zLl"/>
                             <constraint firstItem="NjJ-VF-AVD" firstAttribute="trailing" secondItem="ksl-XV-dKx" secondAttribute="trailing" id="Zav-h4-ZBP"/>
                             <constraint firstItem="5M1-AS-1ar" firstAttribute="top" secondItem="ZyC-mU-YTh" secondAttribute="bottom" constant="95" id="cXg-bV-NnH"/>
                             <constraint firstItem="NjJ-VF-AVD" firstAttribute="leading" secondItem="ksl-XV-dKx" secondAttribute="leading" id="eP1-pO-fcf"/>
