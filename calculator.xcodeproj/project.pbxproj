@@ -14,6 +14,7 @@
 		8A623CFA1AAEB4F7004ADCD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A623CF91AAEB4F7004ADCD9 /* Images.xcassets */; };
 		8A623CFD1AAEB4F7004ADCD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A623CFB1AAEB4F7004ADCD9 /* LaunchScreen.xib */; };
 		8A623D091AAEB4F7004ADCD9 /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A623D081AAEB4F7004ADCD9 /* calculatorTests.m */; };
+		8A623D141AAEB861004ADCD9 /* calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A623D131AAEB861004ADCD9 /* calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8A623D021AAEB4F7004ADCD9 /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A623D071AAEB4F7004ADCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A623D081AAEB4F7004ADCD9 /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
+		8A623D121AAEB861004ADCD9 /* calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
+		8A623D131AAEB861004ADCD9 /* calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8A623CF91AAEB4F7004ADCD9 /* Images.xcassets */,
 				8A623CFB1AAEB4F7004ADCD9 /* LaunchScreen.xib */,
 				8A623CEC1AAEB4F7004ADCD9 /* Supporting Files */,
+				8A623D121AAEB861004ADCD9 /* calculator.h */,
+				8A623D131AAEB861004ADCD9 /* calculator.m */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A623CF51AAEB4F7004ADCD9 /* ViewController.m in Sources */,
+				8A623D141AAEB861004ADCD9 /* calculator.m in Sources */,
 				8A623CF21AAEB4F7004ADCD9 /* AppDelegate.m in Sources */,
 				8A623CEF1AAEB4F7004ADCD9 /* main.m in Sources */,
 			);

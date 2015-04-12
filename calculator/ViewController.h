@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#define ACCEPTABLE_CHARECTERS @"0123456789."
+@interface ViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *operand1;
+@property (weak, nonatomic) IBOutlet UITextField *operand2;
+- (IBAction)sub;
+- (IBAction)multi;
+- (IBAction)divide;
+- (IBAction)plus;
 
-@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *result;
 
 
 @end
