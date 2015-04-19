@@ -43,7 +43,7 @@
     
         calculator *cal = [[calculator alloc] initWithOp1:op1
                                                    andOp2: op2];
-        self.result.text = [NSString stringWithFormat:@"%.2f",[cal subtract]];
+        self.result.text = [NSString stringWithFormat:@"%.2lf",[cal subtract]];
 }//subtract function
 
 - (IBAction)multi {
@@ -52,7 +52,7 @@
     
     calculator *cal = [[calculator alloc] initWithOp1:op1
                                                andOp2: op2];
-    self.result.text = [NSString stringWithFormat:@"%.2f",[cal multi]];
+    self.result.text = [NSString stringWithFormat:@"%.2lf",[cal multi]];
 }//multiply function
 
 
@@ -62,7 +62,7 @@
     
     calculator *cal = [[calculator alloc] initWithOp1:op1
                                                andOp2: op2];
-    self.result.text = [NSString stringWithFormat:@"%.2f",[cal divide]];
+    self.result.text = [NSString stringWithFormat:@"%.2lf",[cal divide]];
 }//divide function
 
 - (IBAction)plus {
@@ -71,7 +71,7 @@
     
     calculator *cal = [[calculator alloc] initWithOp1:op1
                                                andOp2:op2];
-    self.result.text = [NSString stringWithFormat:@"%.2f",[cal plus]];
+    self.result.text = [NSString stringWithFormat:@"%.2lf",[cal plus]];
 }//plus function
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string  {
