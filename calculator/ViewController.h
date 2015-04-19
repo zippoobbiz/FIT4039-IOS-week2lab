@@ -15,9 +15,15 @@
 - (IBAction)multi;
 - (IBAction)divide;
 - (IBAction)plus;
+@property (weak, nonatomic) IBOutlet UIButton *plusButton;
+@property (weak, nonatomic) IBOutlet UIButton *subButton;
+@property (weak, nonatomic) IBOutlet UIButton *multiButton;
+@property (weak, nonatomic) IBOutlet UIButton *dividButton;
 
 @property (weak, nonatomic) IBOutlet UILabel *result;
 
+
+-(void)textFieldDidChange;
 
 @end
 
