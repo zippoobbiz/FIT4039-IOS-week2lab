@@ -133,8 +133,6 @@
                                 <exclude reference="Kqr-pP-u4b"/>
                                 <exclude reference="guR-7e-K2N"/>
                                 <exclude reference="q91-IA-eHP"/>
-                                <exclude reference="BQQ-kD-IjI"/>
-                                <exclude reference="x1f-wn-U5a"/>
                                 <exclude reference="0uu-6H-MRO"/>
                                 <exclude reference="jxk-Va-oxp"/>
                                 <exclude reference="5qk-96-GIc"/>
@@ -144,6 +142,8 @@
                                 <exclude reference="Vv8-IT-Vy4"/>
                                 <exclude reference="bOb-MD-Har"/>
                                 <exclude reference="mkY-9b-kES"/>
+                                <exclude reference="BQQ-kD-IjI"/>
+                                <exclude reference="x1f-wn-U5a"/>
                                 <exclude reference="O73-bC-dZz"/>
                                 <exclude reference="cK2-Im-Maf"/>
                                 <exclude reference="cU8-Fp-RGO"/>
@@ -163,9 +163,6 @@
                                 <include reference="guR-7e-K2N"/>
                                 <exclude reference="hcl-Fr-d73"/>
                                 <include reference="q91-IA-eHP"/>
-                                <include reference="BQQ-kD-IjI"/>
-                                <exclude reference="O2W-ng-yKh"/>
-                                <include reference="x1f-wn-U5a"/>
                                 <include reference="0uu-6H-MRO"/>
                                 <include reference="jxk-Va-oxp"/>
                                 <exclude reference="nlz-tR-1rk"/>
@@ -178,6 +175,9 @@
                                 <include reference="bOb-MD-Har"/>
                                 <exclude reference="fgc-R3-l8c"/>
                                 <include reference="mkY-9b-kES"/>
+                                <include reference="BQQ-kD-IjI"/>
+                                <exclude reference="O2W-ng-yKh"/>
+                                <include reference="x1f-wn-U5a"/>
                                 <exclude reference="96f-AF-Aqo"/>
                                 <exclude reference="JaJ-4b-Dco"/>
                                 <exclude reference="Mya-3S-OdB"/>
